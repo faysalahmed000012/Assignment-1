@@ -74,10 +74,10 @@ h2 {
 .global-community-section {
   background-image: url(./images/shapes/shape-1.png);
   background-repeat: no-repeat;
-  background-position: 950px 290px;
+  background-position: 1130px 370px;
   background-size: 150px;
   padding-left: 120px;
-  padding-right: 120px;
+  padding-right: 120pxf;
   margin-top: 50px;
 }
 .global-community {
@@ -88,9 +88,7 @@ h2 {
   font-size: 30px;
   font-weight: 600;
 }
-.own-add-section {
-  padding: 10px 30px;
-}
+
 .own-add {
   max-width: 250px;
   padding: 5px;
