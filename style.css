@@ -1,4 +1,5 @@
 body {
+  margin: 0%;
   font-family: "Montserrat", sans-serif;
 }
 .flexible-display {
@@ -46,9 +47,45 @@ h2 {
   border-radius: 10px;
   padding: 10px;
 }
-.develop-limit {
-  width: 50%;
+.develop-limit-section {
   background-image: url(./images/shapes/dream-bg.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.develop-limit-section h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.develop-limit {
+  width: 50%;
+  padding: 5px;
+}
+.develop-limit img {
+  width: 70%;
+}
+.global-community-section {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.global-community {
+  width: 50%;
+  padding: 20px;
+}
+.global-community-section h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.global-community img {
+  width: 70%;
+}
+footer {
+  margin: 0%;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+footer h2 {
+  font-family: "Luxurious Roman", cursive;
 }
