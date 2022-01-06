@@ -1,6 +1,5 @@
 body {
   margin: 0%;
-  margin: 30px;
   font-family: "Montserrat", sans-serif;
 }
 .flexible-display {
@@ -10,8 +9,8 @@ body {
 img {
   width: 80%;
 }
-.purple-border {
-  border-left: 3px solid rgb(192, 60, 159);
+#text-border {
+  border-left: 3px solid rgb(255, 132, 0);
   padding: 4px;
   font-family: "Luxurious Roman", cursive;
 }
@@ -30,8 +29,8 @@ h1 {
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(
-    rgb(192, 60, 188),
-    rgba(163, 27, 181, 0.789)
+    rgba(250, 128, 114, 0.652),
+    rgba(238, 105, 16, 0.837)
   );
   color: white;
   padding: 5px 10px;
@@ -89,19 +88,8 @@ h2 {
   font-size: 30px;
   font-weight: 600;
 }
-
-footer {
-  margin: 0%;
-  color: white;
-  background-color: black;
-  text-align: center;
-}
-footer h2 {
-  font-family: "Luxurious Roman", cursive;
-}
 .own-add-section {
-  display: flex;
-  margin: 10px 30px;
+  padding: 10px 30px;
 }
 .own-add {
   max-width: 250px;
@@ -110,4 +98,14 @@ footer h2 {
   border: 3px solid;
   border-image: linear-gradient(to bottom, rgb(18, 185, 126), rgba(0, 0, 0, 0))
     1 100%;
+}
+footer {
+  margin: 0%;
+  margin-bottom: 0%;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+footer h2 {
+  font-family: "Luxurious Roman", cursive;
 }
